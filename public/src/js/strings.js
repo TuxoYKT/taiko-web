@@ -1,4 +1,4 @@
-﻿function StringsJa(){
+function StringsJa(){
 	this.id = "ja"
 	this.name = "日本語"
 	this.regex = /^ja$|^ja-/
@@ -983,10 +983,207 @@ function StringsKo(){
 		maker: '만드는 사람'
 	}
 }
+function StringsRu(){
+	this.id = "ru"
+	this.name = "Русский"
+	this.regex = /^ru$|^ru-/
+	this.font = "TnT, Meiryo, sans-serif"
+	
+	this.taikoWeb = "Taiko Web"
+	this.titleProceed = "Щелкните или нажмите Enter"
+	this.titleDisclaimer = "Данный неофициальный симулятор никак не связан с BANDAI NAMCO."
+	this.titleCopyright = "Taiko no Tatsujin ©&™ 2011 BANDAI NAMCO Entertainment Inc."
+	this.categories = {
+		"J-POP": "Поп",
+		"アニメ": "Аниме",
+		"ボーカロイド™曲": "Музыка VOCALOID™",
+		"バラエティ": "Разное",
+		"クラシック": "Классика",
+		"ゲームミュージック": "Игры",
+		"ナムコオリジナル": "NAMCO Original"
+	}
+	this.selectSong = "Выбор песни"
+	this.selectDifficulty = "Выбор сложности"
+	this.back = "Назад"
+	this.random = "Случайно"
+	this.randomSong = "Случайная песня"
+	this.howToPlay = "Как играть"
+	this.aboutSimulator = "Об Симуляторе"
+	this.gameSettings = "Настройки"
+	this.browse = "Открыть…"
+	this.defaultSongList = "Список песен по умолчанию"
+	this.songOptions = "Опции песни"
+	this.none = "Обычный"
+	this.auto = "Авто"
+	this.netplay = "Совместный"
+	this.easy = "Легко"
+	this.normal = "Средне"
+	this.hard = "Сложно"
+	this.oni = "Экстрим"
+	this.songBranch = "Меняющиеся Ноты"
+	this.sessionStart = "Начать онлайн сессию!"
+	this.sessionEnd = "Закончить сессию"
+	this.loading = "Загрузка..."
+	this.waitingForP2 = "Ждем другого игрока..."
+	this.cancel = "Отмена"
+	this.note = {
+		don: "Дон",
+		ka: "Ка",
+		daiDon: "ДОН",
+		daiKa: "КА",
+		drumroll: "Дробьー!!",
+		daiDrumroll: "ДРОБЬー!!",
+		balloon: "Шар"
+	}
+	this.ex_note = {
+		don: [
+			"До",
+			"До"
+		],
+		ka: [
+			"Ка"
+		],
+		daiDon: [
+			"ДОН",
+			"ДОН"
+		],
+		daiKa: [
+			"КА"
+		]
+	}
+	this.combo = "Комбо"
+	this.clear = "Пройдено"
+	this.good = "Отлично"
+	this.ok = "OK"
+	this.bad = "Плохо"
+	this.branch = {
+		"normal": "Normal",
+		"advanced": "Professional",
+		"master": "Master"
+	}
+	this.pauseOptions = [
+		"Продолжить",
+		"Заново",
+		"Выйти"
+	]
+	this.results = "Результаты"
+	this.points = "очков"
+	this.maxCombo = "Макс. комбо"
+	this.drumroll = "Барабанная дробь"
+	
+	this.errorOccured = "Произошла ошибка, обновите страницу (F5)"
+	this.tutorial = {
+		basics: ["Когда нота закрывает круглую рамку, то нужно ударить в барабан!",
+			"Для красных нот, нужно ударять по барабану (%s или %s)...",
+			"...а для синих нот нужно ударять в край барабана! (%s или %s)",
+			"USB контроллеры также поддерживаются!"
+		],
+		otherControls: "Другие кнопки",
+		otherTutorial: [
+			"%s \u2014 поставить игру на паузу",
+			'%s и %s во время выбора песни \u2014 меняют жанр',
+			"%s во время выбора сложности \u2014 включает режим авто",
+			"%s во время выбора сложности \u2014 включает режим для двух игроков"
+		],
+		ok: "OK"
+	}
+	this.about = {
+		bugReporting: [
+			"Данный симулятор находится в стадии разработки",
+			"Не забудьте сообщать об любых багах, которые вы найдете.",
+			"Вы можете сообщить об багах через наш Git репозиторий или по электронной почте"
+		],
+		diagnosticWarning: "Не забудьте приложить следующие диагностические данные!",
+		issueTemplate: "###### Опишите проблему с которым вы столкнулись ниже. Просим приложить скриншот и диагностические данные.",
+		issues: "Проблемы"
+	}
+	this.session = {
+		multiplayerSession: "Мультиплеер",
+		linkTutorial: "Поделись этим ссылкой, чтобы сыграть с другом! Не покидайте данный экран, когда они присоединяются.",
+		cancel: "Отмена"
+	}
+	this.settings = {
+		language: {
+			name: "Язык"
+		},
+		resolution: {
+			name: "Разрешение",
+			high: "Высокое",
+			medium: "Среднее",
+			low: "Низкая",
+			lowest: "Самая низкая"
+		},
+		touchAnimation: {
+			name: "Анимация касания"
+		},
+		keyboardSettings: {
+			name: "Настройка клавиш",
+			ka_l: "Левый обод",
+			don_l: "Левая поверхность",
+			don_r: "Правая поверхность",
+			ka_r: "Правый обод"
+		},
+		gamepadLayout: {
+			name: "Размещение кнопок контроллера",
+			a: "Type A",
+			b: "Type B",
+			c: "Type C"
+		},
+		latency: {
+			name: "Задержка",
+			value: "Звук: %s, Изображение: %s",
+			calibration: "Калибровка Задержки",
+			audio: "Звук",
+			video: "Изображение",
+			drumSounds: "Звуки Барабана"
+		},
+		easierBigNotes: {
+			name: "Легкие Большие Ноты"
+		},
+		on: "ВКЛ",
+		off: "ВЫКЛ",
+		default: "По умолчанию",
+		ok: "OK"
+	}
+	this.calibration = {
+		title: "Калибровка Задержки",
+		ms: "%sмс",
+		back: "Назад в Настройки",
+		retryPrevious: "Повторить предыдущий",
+		start: "Начать",
+		finish: "Закончить",
+		audioHelp: {
+			title: "Калибровка Задержки Звука",
+			content: "Внимательно слушайте на звук в фоне. \n\nУдарьте по барабане (%s or %s) когда вы их слышите!",
+			contentAlt: "Внимательно слушайте на звук в фоне. \n\nУдарьте по барабане когда вы их слышите!"
+		},
+		audioComplete: "Калибровка Задержки Звука завершена!",
+		videoHelp: {
+			title: "Калибровка Задержки Изображения",
+			content: "На этот раз здесь не будет звуков.\n\nВместо этого смотрите на появляющиеся ноты, ударьте по барабану когда они появляются!"
+		},
+		videoComplete: "Калибровка Задержки Изображениn завершена!",
+		results: {
+			title: "Результаты Калибровки Задержки",
+			content: "Задержка звука: %s\nЗадержка видео: %s\n\nВы можете изменить задержку в настройках!"
+		}
+	}
+	this.browserSupport = {
+		browserWarning: "Вы используете неподдерживаемый браузер (%s)",
+		details: "Подробности...",
+		failedTests: "Ваш браузер не прошел следующие тесты:",
+		supportedBrowser: "Пожалуйста используйте поддерживаемый браузер %s"
+	}
+	this.creative = {
+		creative: 'Кастомный',
+		maker: 'Автор:'
+	}
+}
 var allStrings = {
 	"ja": new StringsJa(),
 	"en": new StringsEn(),
 	"cn": new StringsCn(),
 	"tw": new StringsTw(),
-	"ko": new StringsKo()
+	"ko": new StringsKo(),
+	"ru": new StringsRu()
 }
