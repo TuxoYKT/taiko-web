@@ -162,7 +162,7 @@
 		ok: "OK",
 
 		touchTransparency: {
-			name: "Transparent Drum"
+			name: "Touch Transparancy"
 		}
 	}
 	this.calibration = {
@@ -363,7 +363,7 @@ function StringsEn(){
 		ok: "OK",
 
 		touchTransparency: {
-			name: "Transparent Drum"
+			name: "Touch Transparancy"
 		}
 	}
 	this.calibration = {
@@ -564,7 +564,7 @@ function StringsCn(){
 		ok: "确定",
 
 		touchTransparency: {
-			name: "Transparent Drum"
+			name: "Touch Transparancy"
 		}
 	}
 	this.calibration = {
@@ -765,7 +765,7 @@ function StringsTw(){
 		ok: "確定",
 
 		touchTransparency: {
-			name: "Transparent Drum"
+			name: "Touch Transparancy"
 		}
 	}
 	this.calibration = {
@@ -966,7 +966,7 @@ function StringsKo(){
 		ok: "확인",
 
 		touchTransparency: {
-			name: "Transparent Drum"
+			name: "Touch Transparancy"
 		}
 	}
 	this.calibration = {
@@ -1014,7 +1014,7 @@ function StringsRu(){
 	this.titleDisclaimer = "Данный неофициальный симулятор никак не связан с BANDAI NAMCO."
 	this.titleCopyright = "Taiko no Tatsujin ©&™ 2011 BANDAI NAMCO Entertainment Inc."
 	this.categories = {
-		"J-POP": "J-POP",
+		"J-POP": "Поп",
 		"アニメ": "Аниме",
 		"ボーカロイド™曲": "Музыка VOCALOID™",
 		"バラエティ": "Разное",
@@ -1053,7 +1053,7 @@ function StringsRu(){
 		daiKa: "КА",
 		drumroll: "Дробьー!!",
 		daiDrumroll: "ДРОБЬー!!",
-		balloon: "Шарик"
+		balloon: "Шар"
 	}
 	this.ex_note = {
 		don: [
@@ -1077,9 +1077,9 @@ function StringsRu(){
 	this.ok = "OK"
 	this.bad = "Плохо"
 	this.branch = {
-		"normal": "Обычный",
-		"advanced": "Профессионал",
-		"master": "Мастер"
+		"normal": "Normal",
+		"advanced": "Professional",
+		"master": "Master"
 	}
 	this.pauseOptions = [
 		"Продолжить",
@@ -1098,7 +1098,7 @@ function StringsRu(){
 			"...а для синих нот нужно ударять в край барабана! (%s или %s)",
 			"USB контроллеры также поддерживаются!"
 		],
-		otherControls: "Другие клавиши",
+		otherControls: "Другие кнопки",
 		otherTutorial: [
 			"%s \u2014 поставить игру на паузу",
 			'%s и %s во время выбора песни \u2014 меняют жанр',
@@ -1115,7 +1115,7 @@ function StringsRu(){
 		],
 		diagnosticWarning: "Не забудьте приложить следующие диагностические данные!",
 		issueTemplate: "###### Опишите проблему с которым вы столкнулись ниже. Просим приложить скриншот и диагностические данные.",
-		issues: "Баг-репорты"
+		issues: "Проблемы"
 	}
 	this.session = {
 		multiplayerSession: "Мультиплеер",
@@ -1166,7 +1166,7 @@ function StringsRu(){
 		ok: "OK",
 
 		touchTransparency: {
-			name: "Прозрачный барабан"
+			name: "Touch Transparancy"
 		}
 	}
 	this.calibration = {
