@@ -23,11 +23,6 @@ class Settings{
 				default: !ios,
 				touch: true
 			},
-			touchTransparency: {
-				type: "toggle",
-				default: false,
-				touch: true
-			},
 			keyboardSettings: {
 				type: "keyboard",
 				default: {

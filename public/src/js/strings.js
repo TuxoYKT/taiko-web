@@ -1,4 +1,4 @@
-﻿function StringsJa(){
+function StringsJa(){
 	this.id = "ja"
 	this.name = "日本語"
 	this.regex = /^ja$|^ja-/
@@ -159,11 +159,7 @@
 		on: "オン",
 		off: "オフ",
 		default: "既定値にリセット",
-		ok: "OK",
-
-		touchTransparency: {
-			name: "Touch Transparancy"
-		}
+		ok: "OK"
 	}
 	this.calibration = {
 		title: "Latency Calibration",
@@ -360,11 +356,7 @@ function StringsEn(){
 		on: "On",
 		off: "Off",
 		default: "Reset to Defaults",
-		ok: "OK",
-
-		touchTransparency: {
-			name: "Touch Transparancy"
-		}
+		ok: "OK"
 	}
 	this.calibration = {
 		title: "Latency Calibration",
@@ -561,11 +553,7 @@ function StringsCn(){
 		on: "开",
 		off: "关",
 		default: "重置为默认值",
-		ok: "确定",
-
-		touchTransparency: {
-			name: "Touch Transparancy"
-		}
+		ok: "确定"
 	}
 	this.calibration = {
 		title: "Latency Calibration",
@@ -762,11 +750,7 @@ function StringsTw(){
 		on: "開",
 		off: "關",
 		default: "重置為默認值",
-		ok: "確定",
-
-		touchTransparency: {
-			name: "Touch Transparancy"
-		}
+		ok: "確定"
 	}
 	this.calibration = {
 		title: "Latency Calibration",
@@ -963,11 +947,7 @@ function StringsKo(){
 		on: "온",
 		off: "오프",
 		default: "기본값으로 재설정",
-		ok: "확인",
-
-		touchTransparency: {
-			name: "Touch Transparancy"
-		}
+		ok: "확인"
 	}
 	this.calibration = {
 		title: "Latency Calibration",
@@ -1163,11 +1143,7 @@ function StringsRu(){
 		on: "ВКЛ",
 		off: "ВЫКЛ",
 		default: "По умолчанию",
-		ok: "OK",
-
-		touchTransparency: {
-			name: "Touch Transparancy"
-		}
+		ok: "OK"
 	}
 	this.calibration = {
 		title: "Калибровка Задержки",

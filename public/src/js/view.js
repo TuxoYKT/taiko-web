@@ -132,7 +132,6 @@
 		this.touchEnabled = this.controller.touchEnabled
 		this.touch = -Infinity
 		this.touchAnimation = settings.getItem("touchAnimation")
-		this.touchTransparency = settings.getItem("touchTransparency")
 		
 		versionDiv.classList.add("version-hide")
 		loader.screen.parentNode.insertBefore(versionDiv, loader.screen)
@@ -1972,11 +1971,6 @@
 					this.drumPadding = false
 					this.touchDrumImg.style.backgroundPositionY = ""
 				}
-			}
-			if(this.touchTransparency){
-				this.touchDrumImg.style.opacity = "0.4"
-			}else{
-				this.touchDrumImg.style.opacity = "1.0"
 			}
 		}
 	}
