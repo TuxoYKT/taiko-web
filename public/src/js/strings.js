@@ -994,7 +994,7 @@ function StringsRu(){
 	this.titleDisclaimer = "Данный неофициальный симулятор никак не связан с BANDAI NAMCO."
 	this.titleCopyright = "Taiko no Tatsujin ©&™ 2011 BANDAI NAMCO Entertainment Inc."
 	this.categories = {
-		"J-POP": "Поп",
+		"J-POP": "J-POP",
 		"アニメ": "Аниме",
 		"ボーカロイド™曲": "Музыка VOCALOID™",
 		"バラエティ": "Разное",
@@ -1057,9 +1057,9 @@ function StringsRu(){
 	this.ok = "OK"
 	this.bad = "Плохо"
 	this.branch = {
-		"normal": "Normal",
-		"advanced": "Professional",
-		"master": "Master"
+		"normal": "Обычный",
+		"advanced": "Профессилнал",
+		"master": "Мастер"
 	}
 	this.pauseOptions = [
 		"Продолжить",
@@ -1067,7 +1067,7 @@ function StringsRu(){
 		"Выйти"
 	]
 	this.results = "Результаты"
-	this.points = "очков"
+	this.points = "очк."
 	this.maxCombo = "Макс. комбо"
 	this.drumroll = "Барабанная дробь"
 	
@@ -1078,7 +1078,7 @@ function StringsRu(){
 			"...а для синих нот нужно ударять в край барабана! (%s или %s)",
 			"USB контроллеры также поддерживаются!"
 		],
-		otherControls: "Другие кнопки",
+		otherControls: "Другие клавиши",
 		otherTutorial: [
 			"%s \u2014 поставить игру на паузу",
 			'%s и %s во время выбора песни \u2014 меняют жанр',
@@ -1095,7 +1095,7 @@ function StringsRu(){
 		],
 		diagnosticWarning: "Не забудьте приложить следующие диагностические данные!",
 		issueTemplate: "###### Опишите проблему с которым вы столкнулись ниже. Просим приложить скриншот и диагностические данные.",
-		issues: "Проблемы"
+		issues: "Issues"
 	}
 	this.session = {
 		multiplayerSession: "Мультиплеер",
@@ -1110,8 +1110,8 @@ function StringsRu(){
 			name: "Разрешение",
 			high: "Высокое",
 			medium: "Среднее",
-			low: "Низкая",
-			lowest: "Самая низкая"
+			low: "Низкое",
+			lowest: "Самое низкое"
 		},
 		touchAnimation: {
 			name: "Анимация касания"
